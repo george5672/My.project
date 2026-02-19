@@ -1,6 +1,9 @@
 package HW12;
 
 public class Car {
+    public static void main(String[] args) {
+        
+    }
     public void start() {
         startElectricity();
         startCommand();
@@ -19,3 +22,5 @@ public class Car {
         System.out.println("Fuel system started");
     }
 }
+
+
