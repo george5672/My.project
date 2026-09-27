@@ -1,4 +1,4 @@
-// --- 1. Інтерфейс та реалізації Transport ---
+-
 interface Transport {
     void move();
 }
@@ -6,23 +6,22 @@ interface Transport {
 class Car implements Transport {
     @Override
     public void move() {
-        System.out.println("Машина їде дорогою 🚗");
+        System.out.println("Машина їде дорогою ");
     }
 }
 
 class Plane implements Transport {
     @Override
     public void move() {
-        System.out.println("Літак летить у небі ✈️");
+        System.out.println("Літак летить у небі ");
     }
 }
 
-// --- 2. Абстрактний клас фабрики ---
+
 abstract class TransportFactory {
     public abstract Transport createTransport();
 }
 
-// --- 3. Конкретні фабрики ---
 class CarFactory extends TransportFactory {
     @Override
     public Transport createTransport() {
@@ -37,7 +36,7 @@ class PlaneFactory extends TransportFactory {
     }
 }
 
-// --- 1. Інтерфейс та реалізації Transport ---
+-
 interface Transport {
     void move();
 }
@@ -45,14 +44,14 @@ interface Transport {
 class Car implements Transport {
     @Override
     public void move() {
-        System.out.println("Машина їде дорогою 🚗");
+        System.out.println("Машина їде дорогою ");
     }
 }
 
 class Plane implements Transport {
     @Override
     public void move() {
-        System.out.println("Літак летить у небі ✈️");
+        System.out.println("Літак летить у небі ");
     }
 }
 abstract class TransportFactory {
